@@ -4,15 +4,16 @@
 The goal of this project is to analyze and visualize the finer details of the South Africa vs India series and the players/squads participating in it from different angles.
 
 ## What are the main files?
-As of now, there are 3 important files:
+As of now, there are 4 important files:
 
 1. [year_by_year.ipynb](https://github.com/hmshreyas7/sa-vs-ind-2021/blob/main/year_by_year.ipynb) that allows one to compare the batting averages of multiple batsmen in each year that they've played.
 2. [partnership_breakers.ipynb](https://github.com/hmshreyas7/sa-vs-ind-2021/blob/main/partnership_breakers.ipynb) that helps compare the average partnerships that bowlers have managed to break.
 3. [matchups.ipynb](https://github.com/hmshreyas7/sa-vs-ind-2021/blob/main/matchups.ipynb) which can be used to analyze batsman vs. bowler matchups in a specific time period.
+4. [ball_newness_effect.ipynb](https://github.com/hmshreyas7/sa-vs-ind-2021/blob/main/ball_newness_effect.ipynb) which illustrates how wicket-taking rates for 2 teams vary based on the ball's condition.
 
-In the first file, the names of players and the number of players considered for comparison can be adjusted but might require some modifications with respect to the plot settings. As for the second one, using or changing the customizable parameters should be pretty straightforward. In both cases, however, the values for 'player' must be set accurately in the format shown. The exact player name with the correct initials can be found using [Cricinfo Statsguru](https://stats.espncricinfo.com/ci/engine/stats/index.html). The other parameters are only used for customizing the plot and can be set as desired. In the last file, the dates, the 'team', and even more specific choices for 'batsman'/'bowler' can be modified.
+In the first file, the names of players and the number of players considered for comparison can be adjusted but might require some modifications with respect to the plot settings. As for the second one, using or changing the customizable parameters should be pretty straightforward. In both cases, however, the values for 'player' must be set accurately in the format shown. The exact player name with the correct initials can be found using [Cricinfo Statsguru](https://stats.espncricinfo.com/ci/engine/stats/index.html). The other parameters are only used for customizing the plot and can be set as desired. In the last 2 files, the dates, the teams, and even more specific choices for 'batsman'/'bowler' can be modified.
 
-Although the purpose of this is to analyze players involved in this series, it can also be used for players from other countries that have played Test match cricket between March 8, 2004 to January 3, 2022.
+Although the purpose of this is to analyze players involved in this series, it can also be used for players from other countries that have played Test match cricket between March 8, 2004 to January 11, 2022.
 
 ## What are the dependencies?
 * Python 3.10.1
@@ -21,7 +22,7 @@ Although the purpose of this is to analyze players involved in this series, it c
 * jupyter-notebook 6.0.1
 
 ## Where can the data to reproduce these results be obtained?
-The ball-by-ball data for all Test matches between March 8, 2004 to January 3, 2022 was obtained from [Cricsheet](https://cricsheet.org/downloads/tests_csv2.zip). All the individual Test match files were then combined together using an [online tool](https://extendsclass.com/merge-csv.html).
+The ball-by-ball data for all Test matches between March 8, 2004 to January 11, 2022 was obtained from [Cricsheet](https://cricsheet.org/downloads/tests_csv2.zip). All the individual Test match files were then combined together using an [online tool](https://extendsclass.com/merge-csv.html).
 
 ## The purpose of using certain functions in the code is not very clear. Are there any references for these?
 The roles of some functions may indeed be hard to figure out at first glance. Some references that might be useful for better understanding are:
